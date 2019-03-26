@@ -1,0 +1,40 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FCFCFC;
+}
+
+/* Start of nav bar */
+
+.nav-bar {
+    display: inline-block;
+    height: 70px;
+    width: 100%;
+    background-color: #6888fc;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.favicon {
+    height: 70px;
+    float: right;
+}
+
+.nav-list {
+    position: absolute;
+    left: 50%;
+    margin: 0 auto;
+    height: 70px;
+    
+    transform: translateX(-50%);
+}
+
+.list-item {
+    float: left;
+    list-style-type: none;
+    margin: 10px 10px 10px 10px;
+    height: auto;
+}
+
+/* End of nav */
