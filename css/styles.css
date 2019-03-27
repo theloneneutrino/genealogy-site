@@ -8,7 +8,8 @@ body {
 
 .nav-bar {
     display: inline-block;
-    height: 70px;
+    height: 8%;
+    min-height: 60px;
     width: 100%;
     background-color: #6888fc;
     position: fixed;
@@ -17,7 +18,7 @@ body {
 }
 
 .favicon {
-    height: 70px;
+    height: 100%;
     float: right;
 }
 
