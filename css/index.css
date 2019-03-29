@@ -1,25 +1,29 @@
+
+p {
+    margin: 0 auto;
+}
+
 /* margin: top right bottom left; */
 
 .content {
     position: absolute;
-    height: 92%;
+    height: 100%;
     width: 100%;
+    top: 8%;
     top: 8%;
     overflow: hidden;
 }
 
-div {
-    border: 1px solid green;
-}
-
-/*The two side sections*/
+/* start of sides structuring */
 
 .sides {
+    text-align: center;
     position: absolute;
     width: 50%;
     height: 100%;
     top: 50%;
     overflow-y: scroll;
+    overflow-x: hidden;
     
     transform: translateY(-50%);
     border: 0;
@@ -28,6 +32,7 @@ div {
 .s1 {
     left: 0;
     border-right: 1px solid black;
+    background-color: #cae5ff;
 }
 
 .s2 {
@@ -35,55 +40,87 @@ div {
     border-left: 1px solid black;
 }
 
-/*end of side, start of structure of genealogy*/
+/* end of sides structuring */
 
-.structure {
+/* start of genealogy structure */
+
+.struc1, .struc2 {
+    position: relative;
+    width: 40%;
+    margin: 5%;
+}
+
+.struc1 {
+    height: 20%;
+}
+
+.struc2 {
     position: absolute;
-    height: 80%;
-    width: 60%;
+    height: 58%;
     right: 0;
     top: 50%;
     
     transform: translateY(-50%);
-    border: 0;
 }
 
-.struc1 {
+/* end of invisible structure
+start of gen-parents & gen-children */
+
+.gen-parent, .gen-child {
+    text-decoration: none;
+    display: block;
+    border: 1px solid black;
+    position: absolute;
+    width: 150px;
+    height: 36px;
+}
+
+.dad {
+    top: 0;
+}
+
+.mom {
+    bottom: 0;
+}
+
+.gen-child {
+    right: 0;
+    top: 50%;
     
+    transform: translateY(-50%);
 }
 
-.struc2 {
-    
+
+
+.black-text:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-.gen {
-    position: relative;
-    height: 10%;
-    width: 15%;
-    text-align: center;
-}
-
-.gen1 {
-    margin: 2.5% 0 2.5% 0;
+.black-text {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .gen2 {
-    margin: 15% 0 15% 0;
+    height: 36px;
 }
 
-.gen3 {
-    margin: 30% 0 30% 0;
+.mom2 {
+    margin-bottom: 10%;
 }
 
-.genf {
-    margin-top: 0;
+.mich {
+    margin-bottom: 2%;
 }
 
-.genl {
-    margin-bottom: 0;
-}
-
-.me {
-    border: 1px solid green;
+.s2-h2 {
+    width: 100%;
+    background-color: #c60;
+    border-left: 1px solid black;
+    margin: 0;
+    padding: 15px;
 }
 

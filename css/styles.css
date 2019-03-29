@@ -1,8 +1,19 @@
 body {
     width: 100%;
     margin: 0 auto;
-    background-color: #FCFCFC;
+    background-color: #eee;
 }
+
+/* My default values for header tags */
+
+h1 { font-size: 24px;}
+h2 { font-size: 22px;}
+h3 { font-size: 18px;}
+h4 { font-size: 16px;}
+h5 { font-size: 12px;}
+h6 { font-size: 10px;}
+
+/* end of default values */
 
 /* Start of nav bar */
 
@@ -11,15 +22,15 @@ body {
     height: 8%;
     min-height: 60px;
     width: 100%;
-    background-color: #6888fc;
+    background-color: #69c;
     position: fixed;
     top: 0;
     z-index: 1;
 }
 
-.favicon {
+.logo {
     height: 100%;
-    float: right;
+    float: left;
 }
 
 .nav-list {
@@ -34,7 +45,7 @@ body {
 .list-item {
     float: left;
     list-style-type: none;
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
     height: auto;
 }
 

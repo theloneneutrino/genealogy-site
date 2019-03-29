@@ -6,13 +6,15 @@
 		<meta name="author" content="Luke Warkentin">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&amp;subset=cyrillic,cyrillic-ext,greek,latin-ext" rel="stylesheet">
 		<link rel="stylesheet" href="css/styles.css" type="text/css" />
 		<link rel="stylesheet" href="css/index.css"  type="text/css" />
+		<title>My genealogy</title>
     </head>
     <body>
         <header>
             <nav class="nav-bar">
-                <img src="/images/aw-logo.png" alt="AW monogram" class="favicon">
+                <img src="/images/aw-logo.png" alt="AW monogram" class="logo">
                 <ul class="nav-list">
                     <li class="list-item">Families</li>
                     <li class="list-item">About</li>
@@ -21,29 +23,50 @@
         </header>
         <main class="content" style="position: absolute; height: 92%; width: 100%; top: 8%;">
             <div class="sides s1">
-                <div class="gen gen1"></div>
-                <div class="gen gen1"></div>
-                <div class="gen gen1"></div>
-                <div class="gen gen1"></div>
-                <div class="gen gen1"></div>
-                <div class="gen gen1"></div>
-                <div class="gen gen1"></div>
-                <div class="gen gen1"></div>
-                <div class="structure struc1">
-                    <div class="gen gen2"></div>
-                    <div class="gen gen2"></div>
-                    <div class="gen gen2"></div>
-                    <div class="gen gen2"></div>
-                    <div class="structure struc2">
-                        <div class="gen gen3"></div>
-                        <div class="gen gen3"></div>
-                        
-                        <div class="gen me"></div>
-                    </div>
+                
+                <div class="struc1">
+                    <div class="gen-parent dad"><a href=""><p>Ervin<br />Warkentin</p></a></div>
+                    <div class="gen-parent mom"><a href=""><p>June Esther<br />Heinze</p></a></div>
+                    <div class="gen-child"><a href=""><p>Donald Rae<br />Warkentin</p></a></div>
+                </div>
+                <div class="struc1">
+                    <div class="gen-parent dad"><a href=""><p>Erwin<br />Thiesen</p></a></div>
+                    <div class="gen-parent mom"><a href=""><p>Mary<br />Neufeld</p></a></div>
+                    <div class="gen-child"><a href=""><p>Janet Kathleen<br />Thiesen</p></a></div>
+                </div>
+                <div class="struc1">
+                    <div class="gen-parent dad"><a href=""><p>Forster Carlisle<br />Abbott</p></a></div>
+                    <div class="gen-parent mom"><a href=""><p>Harriett Elvina<br />Knowles</p></a></div>
+                    <div class="gen-child"><a href=""><p>Steven Forster<br />Abbott</p></a></div>
+                </div>
+                <div class="struc1">
+                    <div class="gen-parent dad"><a href=""><p>Paul Hatfield<br />Frary</p></a></div>
+                    <div class="gen-parent mom"><a href=""><p>Vivian Yvonne<br />Scott</p></a></div>
+                    <div class="gen-child"><a href=""><p>Paula Jean<br />Frary</p></a>-9</div>
+                </div>
+                <div class="struc2">
+                    <div class="gen-parent dad gen2"><a href=""><p>Edward Simon<br />Warkentin</p></a></div>
+                    <div class="gen-parent mom gen2 mom2"><a href=""><p>Audra Vivian<br />Abbott</p></a></div>
+                    <div class="gen-child gen2 mich"><a href=""><p>Luke Ian<br />Warkentin</p></a></div>
                 </div>
             </div>
-            <div class="sides s2"></div>
+            <div class="sides s2">
+                <h2 class="s2-h2">Luke Warkentin</h2>
+                <p class="s2-start-p">A man among men. Luke was not the first. He grew in a town with people in it. He was raised by his parents. His parents were people. "Big shocker there." -Luke. He was the last of the middle.</p>
+                <p>Nec multo magis in tabula.</p>
+                <embed src="/video/Waving Kids 1950s.mp4"></embed>
+            </div>
         </main>
     </body>
+    <script type="text/javascript" src="/jquery-3.3.1.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137152950-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-137152950-1');
+    </script>
 </html>
-<script type="text/javascript" src="/jquery-3.3.1.js"></script>
+
