@@ -7,9 +7,8 @@ p {
 
 .content {
     position: absolute;
-    height: 100%;
+    height: 92%;
     width: 100%;
-    top: 8%;
     top: 8%;
     overflow: hidden;
 }
@@ -19,7 +18,7 @@ p {
 .sides {
     text-align: center;
     position: absolute;
-    width: 50%;
+    width: 100%;
     height: 100%;
     top: 50%;
     overflow-y: scroll;
@@ -31,7 +30,7 @@ p {
 
 .s1 {
     left: 0;
-    border-right: 1px solid black;
+    /* border-right: 1px solid black; */
     background-color: #cae5ff;
 }
 
@@ -56,10 +55,10 @@ p {
 
 .struc2 {
     position: absolute;
-    height: 58%;
+    height: 63%;
     right: 0;
-    top: 50%;
-    
+    top: 52%;
+
     transform: translateY(-50%);
 }
 
@@ -108,9 +107,9 @@ start of gen-parents & gen-children */
     height: 36px;
 }
 
-.mom2 {
+/* .mom2 {
     margin-bottom: 10%;
-}
+} */
 
 .mich {
     margin-bottom: 2%;
@@ -119,8 +118,10 @@ start of gen-parents & gen-children */
 .s2-h2 {
     width: 100%;
     background-color: #c60;
+    color: #9cf;
     border-left: 1px solid black;
     margin: 0;
     padding: 15px;
 }
+
 

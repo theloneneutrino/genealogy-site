@@ -50,3 +50,85 @@ h6 { font-size: 10px;}
 }
 
 /* End of nav */
+
+/* start of footer */
+
+.footer {
+    display: inline-block;
+    height: 8%;
+    min-height: 60px;
+    width: 100%;
+    background-color: #69c;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.foot-list {
+    position: absolute;
+    left: 50%;
+    margin: 0 auto;
+    height: 70px;
+    
+    transform: translateX(-50%);
+}
+
+/* usw, usw... */
+
+.black-text:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.black-text {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*start of footer*/
+
+footer {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    background-color: #9CF;
+}
+
+.footer-col {
+    position: absolute;
+    margin: 10px;
+    display: inline-block;
+}
+
+.col1, .col2, .col3 {
+    position: absolute;
+}
+
+.col1 {
+    left: 0;
+}
+
+.col2 {
+    left: 50%;
+
+    transform: translate(-50%);
+}
+
+.fa-smoking-ban {
+    font-size: 3em;
+}
+
+.facebook-img {
+    height: 80px;
+    width: 80px;
+}
+
+.col3 {
+    width: 33%;
+    height: 100px;
+    right: 0;
+}
