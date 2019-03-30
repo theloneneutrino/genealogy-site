@@ -50,15 +50,15 @@ p {
 }
 
 .struc1 {
-    height: 20%;
+    height: 15%;
 }
 
 .struc2 {
     position: absolute;
-    height: 63%;
+    height: 48%;
     right: 0;
-    top: 52%;
-
+    top: 40%;
+    
     transform: translateY(-50%);
 }
 
