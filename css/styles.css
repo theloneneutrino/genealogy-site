@@ -131,4 +131,9 @@ footer {
     width: 33%;
     height: 100px;
     right: 0;
+    text-align: right;
+}
+
+.fa-facebook-square, .fa-bacon {
+    font-size: 2em;
 }
