@@ -65,6 +65,65 @@ p {
 /* end of invisible structure
 start of gen-parents & gen-children */
 
+.eltern-div {
+    height: 100%;
+    width: 152px;
+    border: 1px solid black;
+    transition: 2s;
+}
+
+.elt-div1:hover {
+    width: 290.67px;
+    height: 240px;
+    background-color: #9cf;
+    background-image: url("../images/Ervin & June.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.elt-div2:hover {
+    width: 329.8px;
+    background-color: #9cf;
+    background-image: url("../images/1986-12-29 Thiesen.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.elt-div3:hover {
+    width: 300px;
+    height: 200px;
+    background-color: #9cf;
+    background-image: url("../images/1945-09-02 Abbott, Forster and Harriett wed.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.elt-div4:hover {
+    width: 240.36px;
+    background-color: #9cf;
+    background-image: url("../images/Frary, Paul and Bonnie portrait.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.elt-div5:hover {
+    width: 200px;
+    background-color: #9cf;
+    background-image: url(../images/1994.08.06-ed-and-audra-wedding.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.married-date {
+    position: absolute;
+    top: 80px;
+}
+
 .gen-parent, .gen-child {
     text-decoration: none;
     display: block;
@@ -72,6 +131,12 @@ start of gen-parents & gen-children */
     position: absolute;
     width: 150px;
     height: 56px;
+    transition: 2s;
+}
+
+.gen-parent:hover, .gen-child:hover {
+    background-color: #9cf;
+    color: #cae5ff;
 }
 
 .dad {
